@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         mProgressDialog = new ProgressDialog(MainActivity.this);
         mProgressDialog.setTitle("Simulando descarga ...");
         mProgressDialog.setMessage("Descarga en progreso ...");
-        mProgressDialog.setProgressStyle(mProgressDialog.STYLE_HORIZONTAL);
+        mProgressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
         mProgressDialog.setProgress(0);
         mProgressDialog.setMax(100);
         mProgressDialog.show();
