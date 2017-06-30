@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
             mProgressBar.incrementProgressBy(10);
         }
     };
-    boolean isRunning = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        isRunning = true;
         mThread.start();
     }
 }
